@@ -6,40 +6,30 @@
     <title>Login Page</title>
     <style>
 
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
+body{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right,#3f5efb,#fc466b)
+
 }
             
-            .bgimg-1 { 
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url("./images/kk.png");
-            min-height: 100%;
-}
-           /* font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-size: 100% 100%;
-            
-            }*/
 
      body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 
         .login-container {
             background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 100px;
+            box-shadow:2px 2px 5px 1px black;
+            padding: 50px;
             width: 300px;
             text-align: center;
-            position: relative;
-            left:-30%;
+            background-color: rgba(255, 255, 255, 0.0);
+            backdrop-filter: blur(10px);
+ 
+            
         }
 
         .login-container h2 {
@@ -63,17 +53,13 @@ body, html {
 </head>
 <body>
 
-<div>
-
-<img src="./image/kk.png"  width="100%" height="100%">
-
 <div class="login-container">
 
     <h2>Login</h2>
     <button onclick="redirectToAdmin()">Admin</button>
     <button onclick="redirectToUser()">User</button>
     <button onclick="redirectToLibrary()">Library</button>
-</div>
+
 </div>
     
 
