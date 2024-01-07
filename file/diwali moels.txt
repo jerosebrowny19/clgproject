@@ -1,0 +1,8 @@
+hp830 g5 25000
+hp840 g5 25000
+hp450 g3 20000 i5 8thgen
+
+dell latitude 5290 i5 8th 20000
+dell 7490 i5 8thgen20000
+
+6 months warranty
